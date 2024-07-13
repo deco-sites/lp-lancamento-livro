@@ -1,14 +1,14 @@
 {
   "seo": {
     "type": "website",
-    "title": "Landing",
+    "title": "Relatos de um Vampiro na Guerra - Pré-venda",
     "jsonLDs": [],
     "noIndexing": false,
-    "description": "Improve your page performance with deco.cx",
-    "titleTemplate": "Landing | deco.cx",
-    "descriptionTemplate": "%s | Deco.cx",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/0fba8a8c-ee79-47e1-8f9d-863658d056cc",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/1350f37f-88ab-4cf1-bcf6-c386bcf8b238"
+    "description": "LP Lançamento do Livro Relatos de um Vampiro na Guerra",
+    "titleTemplate": "Relatos de um Vampiro na Guerra - Pré-venda",
+    "descriptionTemplate": "LP Lançamento do Livro Relatos de um Vampiro na Guerra",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/64c08420-e390-48f6-a373-523b4c227ca2",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/95782070-84fe-4295-b963-0b0b2e925f50"
   },
   "global": [
     {

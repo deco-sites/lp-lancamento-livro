@@ -1,42 +1,227 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Header"
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header.tsx",
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/6d887c94-6a72-4dc8-a3bf-ce7f080d629c",
+        "alt": "Logo Ana Clara Galli"
       },
-      {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
+      "navigation": {
+        "links": [
+          {
+            "label": "Kits"
+          },
+          {
+            "label": "Onde Comprar"
+          },
+          {
+            "label": "Fale Comigo"
+          }
+        ],
+        "buttons": [
+          {
+            "id": "ctaComprarAgora",
+            "href": "https://www.catarse.me/rduvng",
+            "text": "Comprar Agora"
+          }
+        ]
       }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>Relatos de um</p><p>Vampiro na Guerra</p>",
+      "cta": [
+        {
+          "id": "ctaFreeBook",
+          "href": "https://meszaros.notion.site/Leia-os-primeiros-cap-tulos-de-gra-a-41af2511fff24f0ea89f958bc3e91092",
+          "text": "Leia os primeiros capítulos de graça!"
+        }
+      ],
+      "description": "Hermina, uma jovem obscurecida pela monotonia de sua vida, tem sua existência transformada ao se deparar com um encontro extraordinário. Em uma história que ecoa a bravura de Mulan, ela é lançada em um turbilhão de eventos que mudarão não apenas sua vida, mas o destino de sua nação.  Ambientado na Hungria, nas vésperas da Primeira Guerra, Mina se vê diante de um dilema que irá desencadear uma reação em cadeia irreversível. Enquanto tenta esconder seu verdadeiro eu e enfrenta um mito que se torna realidade, ela se vê obrigada a escolher entre abandonar quem era ou abraçar cada parte de si mesma.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/52ae2aaf-3e3e-416f-88fa-d6691c8efcdf",
+      "imageBackground": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/dec42133-32c8-4e53-8d46-27853b10e807"
+    },
+    {
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "title": "O que você encontrará neste livro:",
+      "description": " ",
+      "posts": [
+        {
+          "tags": [],
+          "title": "Uma jornada épica de autodescoberta e desafios inimagináveis.",
+          "author": "a",
+          "excerpt": "a",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/0dfa782c-77df-44e3-a830-f133cd4ac73a",
+          "date": "1"
+        },
+        {
+          "title": "Um mergulho na cultura e na história da Hungria nas vésperas da Primeira Guerra Mundial.",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/bd91f327-4c30-4a08-90a6-8de6989aa869"
+        },
+        {
+          "title": "Uma protagonista corajosa que desafia as convenções de seu tempo.",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/47b5efab-a179-4f2e-8e56-0a9c0ff38f0a"
+        },
+        {
+          "title": "Um confronto com mitos e realidades que mudarão a vida de Mina para sempre.",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/a02f0b02-3258-4475-86dc-8b2017b14422"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/ProductCard.tsx",
+      "title": "Opções de compra",
+      "products": [
+        {
+          "title": "E-BOOK",
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/d0ff3909-9745-4a70-bd8e-5ec2bb91250c",
+          "priceLarge": "R$18",
+          "priceLargeDescription": "envio imediato (contate por DM)",
+          "buttonText": "COMPRE AGORA",
+          "buttonLink": "https://www.catarse.me/rduvng",
+          "altText": "Foto Kindle Kit E-Book"
+        },
+        {
+          "title": "FÍSICO",
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/28343a9e-84ce-4b3e-84f4-6de875f7af71",
+          "priceLarge": "R$65",
+          "priceLargeDescription": "Porto Alegre",
+          "priceMedium": "R$60 + frete",
+          "priceMediumDescription": "outras regiões",
+          "buttonText": "COMPRE AGORA",
+          "buttonLink": "https://www.catarse.me/rduvng"
+        },
+        {
+          "title": "KIT KÉTSZY",
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/8140419d-a2c5-4760-9b0c-1ed0364f1413",
+          "priceLarge": "R$75",
+          "priceLargeDescription": "Porto Alegre",
+          "priceMedium": "R$70 + frete",
+          "priceMediumDescription": "outras regiões",
+          "buttonText": "COMPRE AGORA",
+          "buttonLink": "https://www.catarse.me/rduvng"
+        },
+        {
+          "title": "KIT KOVÁCS",
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/9e1efd64-a4d6-48c1-8d2d-d112b6cc4e23",
+          "priceLarge": "R$75",
+          "priceLargeDescription": "Porto Alegre",
+          "priceMedium": "R$75 + frete",
+          "priceMediumDescription": "outras regiões",
+          "buttonText": "COMPRE AGORA",
+          "buttonLink": "https://www.catarse.me/rduvng",
+          "altText": "Imagem Kit Kovács com o livro físico e e-book"
+        }
+      ],
+      "icon": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/cc43ea37-1bc0-4dce-8e49-0cd28431b79a"
+      },
+      "showIcon": true
+    },
+    {
+      "__resolveType": "site/sections/Logos.tsx",
+      "title": "Relatos de quem já garantiu sua leitura",
+      "logos": [
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/03d0d2a3-f06c-40c1-9ee9-c3b145e0a0eb"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/87e38656-7799-432e-9654-2d11e3edb5c5"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/7272a8d6-13a6-4629-9d9b-fae488a661bf"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/5edb0aa2-7c24-4973-b1a7-79e8852ea151"
+        }
+      ],
+      "showLogos": true,
+      "icon": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/cc43ea37-1bc0-4dce-8e49-0cd28431b79a",
+        "alt": "Icone Cruz"
+      },
+      "showIcon": true
+    },
+    {
+      "__resolveType": "site/sections/BannerCompra.tsx",
+      "title": "Uma história que irá atravessar um século.",
+      "description": "Reserve sua cópia agora e faça parte dessa jornada.",
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/db2aab74-fbd8-4a58-b453-2b69e5bcd9d8",
+      "buttons": [
+        {
+          "text": "Amazon E-BOOK",
+          "link": "https://www.amazon.com.br/Relatos-um-Vampiro-na-Guerra-ebook/dp/B0D1LC8STG/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3G5NNER48W4QE&dib=eyJ2IjoiMSJ9.O6NOoZJbXXRT2r5PnwTXdvzD-u0bQh4XZcjm-GrRXJEPW1PoItxUb5P2wmlY7dVNv5K_86IH2A1xXLXq7HKwm-eamNukd7CvGOSg1s4qIWQrgqGnth3KqW6wPR57U6PAYgbrxwfoqdjiX-K1oGNi_z7NKkrYr26cslvbP9MZF6ZVbcOtZjzJFkVArOEUxz0bC_1BwJZ9bvbKuEAZvQX94fw6HSlNuEwiRVxB76h71O4.3mZeE0Jeswmdkbd5fKP6dn0hC8vy40EIHgY0tgJCO9Q&dib_tag=se&keywords=Relatos+de+um+Vampiro+na+Guerra&qid=1714523437&s=books&sprefix=%2Cstripbooks%2C216&sr=1-1"
+        },
+        {
+          "link": "https://www.amazon.com.br/dp/6500988353?ref=myi_title_dp",
+          "text": "Amazon Capa Dura"
+        },
+        {
+          "text": "Shopee Capa Dura",
+          "link": "https://shopee.com.br/product/332636394/18499247830/"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Para comprar o livro com preço mais acessível (sem tarifas) me chame no Instagram.",
+      "description": "Para leitores de Porto Alegre é possível combinar entrega sem custo de frete. Para outros estados este valor deverá ser calculado juntamente.\n\nIndico, principalmente, optar por comprar o e-book por e-mail ou DM do Instagram; você também recebe o arquivo na hora, apoia mais diretamente o trabalho independente!\nNeste modo, o valor é direcionado inteiramente à autora, sem ter parte cortada por taxas de plataforma de vendas.",
+      "placement": "left",
+      "showTagline": false,
+      "tagline": "Teste",
+      "disableSpacing": {
+        "top": false
+      },
+      "cta": [
+        {
+          "style": "Outline",
+          "id": "ctaReserveLivro",
+          "href": "https://www.instagram.com/rduvng/",
+          "text": "Reserve o seu livro comigo"
+        }
+      ],
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/11c733e7-15b1-4b86-8fb2-d968c6e369cb"
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx",
+      "links": [],
+      "bottomLinks": [],
+      "social": [
+        {
+          "network": "Instagram",
+          "href": "https://www.instagram.com/rduvng/"
+        }
+      ],
+      "subscribe": {
+        "instructions": "<p>teste</p>",
+        "title": "Para dúvidas ou contato, encaminhe sua mensagem",
+        "description": "teste"
+      },
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/575df761-8845-466e-a066-448f4b3eb5b3"
+      },
+      "socialPersonalizado": [
+        {
+          "icon": {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/5c90723b-88fc-4c92-ab7c-53cda3c002eb"
+          },
+          "href": "https://www.goodreads.com/book/show/211226924-relatos-de-um-vampiro-na-guerra",
+          "network": "Good Reads"
+        },
+        {
+          "icon": {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/de1f600f-b418-4844-99f6-fb41b023ea88"
+          },
+          "href": "https://www.skoob.com.br/relatos-de-um-vampiro-na-guerra-122450332ed122451356.html",
+          "network": "Skoob"
+        }
+      ]
     }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
+}

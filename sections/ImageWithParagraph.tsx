@@ -13,6 +13,7 @@ export interface Props {
   /** @format textarea */
   description?: string;
   tagline?: string;
+  showTagline?: boolean; // Novo campo para controlar a exibição da tagline
   image?: ImageWidget;
   placement?: "left" | "right";
   cta?: CTA[];
@@ -35,6 +36,7 @@ export default function ImageWithParagraph({
   description =
     "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
   tagline = "Tagline",
+  showTagline = true, // Valor padrão true para mostrar a tagline
   image = DEFAULT_IMAGE,
   placement = "left",
   disableSpacing,
@@ -52,7 +54,7 @@ export default function ImageWithParagraph({
           disableSpacing?.top ? "" : "pt-12 lg:pt-28"
         } ${disableSpacing?.bottom ? "" : "pb-12 lg:pb-28"}`}
       >
-        <div class="w-full md:w-1/2 border border-secondary rounded-lg overflow-hidden">
+        <div class="w-full md:w-1/2 border-0 border-secondary rounded-lg overflow-hidden">
           <Image
             width={640}
             height={640}
@@ -65,7 +67,7 @@ export default function ImageWithParagraph({
           />
         </div>
         <div class="w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl gap-4 z-10">
-          <p class="text-sm font-semibold">
+          <p class={`text-sm font-semibold ${showTagline ? "" : "hidden"}`}>
             {tagline}
           </p>
           <p class="text-4xl leading-snug">

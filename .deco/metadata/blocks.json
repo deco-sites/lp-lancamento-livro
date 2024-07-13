@@ -104,5 +104,13 @@
   "/.deco/blocks/Vanilla.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Theme/Theme.tsx"
+  },
+  "/.deco/blocks/Preview%20website%2Floaders%2Ffonts%2FgoogleFonts.ts.json": {
+    "blockType": "loaders",
+    "__resolveType": "website/loaders/fonts/googleFonts.ts"
+  },
+  "/.deco/blocks/My%20Theme.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Theme/Theme.tsx"
   }
 }

@@ -1,1 +1,36 @@
-{"__resolveType":"site/sections/Theme/Theme.tsx","colorScheme":"any","buttonStyle":{"--border-btn":"1px","--rounded-btn":"2rem","--btn-focus-scale":"0.95","--animation-btn":"0.25s"},"otherStyles":{"--rounded-box":"1rem","--rounded-badge":"1.9rem","--animation-input":"0.2s","--tab-border":"1px","--tab-radius":"0.5rem"},"mainColors":{"base-100":"#FDE5BE","primary":"#FF6502","secondary":"#FEC902","tertiary":"#FF91B2","neutral":"#9934A6","info":"#2e72d2","error":"#d82c0d","warning":"#ffc453","success":"#008060"},"font":{"__resolveType":"website/loaders/fonts/googleFonts.ts","fonts":[{"variations":[],"family":"Shrikhand"}]}}
+{
+  "__resolveType": "site/sections/Theme/Theme.tsx",
+  "colorScheme": "any",
+  "buttonStyle": {
+    "--border-btn": "1px",
+    "--rounded-btn": "0.8rem",
+    "--btn-focus-scale": "0.95",
+    "--animation-btn": "0.25s"
+  },
+  "otherStyles": {
+    "--rounded-box": "1rem",
+    "--rounded-badge": "1.9rem",
+    "--animation-input": "0.2s",
+    "--tab-border": "1px",
+    "--tab-radius": "0.5rem"
+  },
+  "mainColors": {
+    "base-100": "#F6F1ED",
+    "primary": "#881212",
+    "secondary": "#1B1E18",
+    "tertiary": "#121410",
+    "neutral": "#d7d1cb",
+    "info": "#2e72d2",
+    "error": "#d82c0d",
+    "warning": "#ffc453",
+    "success": "#008060"
+  },
+  "font": {
+    "styleSheet": "<link href=\"https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap\" rel=\"stylesheet\">",
+    "family": "Karma"
+  },
+  "mode": "light",
+  "complementaryColors": {
+    "primary-content": "#ffffff"
+  }
+}

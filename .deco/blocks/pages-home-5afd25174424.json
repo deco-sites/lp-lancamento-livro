@@ -1,6 +1,5 @@
 {
   "name": "Home",
-  "path": "/",
   "sections": [
     {
       "__resolveType": "site/sections/Header.tsx",
@@ -125,16 +124,20 @@
       "title": "Relatos de quem já garantiu sua leitura",
       "logos": [
         {
-          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/03d0d2a3-f06c-40c1-9ee9-c3b145e0a0eb"
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/03d0d2a3-f06c-40c1-9ee9-c3b145e0a0eb",
+          "altText": "Imagem clientes que já compraram"
         },
         {
-          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/87e38656-7799-432e-9654-2d11e3edb5c5"
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/87e38656-7799-432e-9654-2d11e3edb5c5",
+          "altText": "Imagem clientes que já compraram"
         },
         {
-          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/7272a8d6-13a6-4629-9d9b-fae488a661bf"
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/7272a8d6-13a6-4629-9d9b-fae488a661bf",
+          "altText": "Imagem clientes que já compraram"
         },
         {
-          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/5edb0aa2-7c24-4973-b1a7-79e8852ea151"
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/5edb0aa2-7c24-4973-b1a7-79e8852ea151",
+          "altText": "Imagem clientes que já compraram"
         }
       ],
       "showLogos": true,
@@ -162,12 +165,13 @@
           "text": "Shopee Capa Dura",
           "link": "https://shopee.com.br/product/332636394/18499247830/"
         }
-      ]
+      ],
+      "altText": "Ilustração da Médica"
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
       "title": "Para comprar o livro com preço mais acessível (sem tarifas) me chame no Instagram.",
-      "description": "Para leitores de Porto Alegre é possível combinar entrega sem custo de frete. Para outros estados este valor deverá ser calculado juntamente.\n\nIndico, principalmente, optar por comprar o e-book por e-mail ou DM do Instagram; você também recebe o arquivo na hora, apoia mais diretamente o trabalho independente!\nNeste modo, o valor é direcionado inteiramente à autora, sem ter parte cortada por taxas de plataforma de vendas.",
+      "description": "Para leitores de Porto Alegre é possível combinar entrega sem custo de frete. Para outros estados este valor deverá ser calculado juntamente. Indico, principalmente, optar por comprar o e-book por e-mail ou DM do Instagram; você também recebe o arquivo na hora, apoia mais diretamente o trabalho independente! Neste modo, o valor é direcionado inteiramente à autora, sem ter parte cortada por taxas de plataforma de vendas.",
       "placement": "left",
       "showTagline": false,
       "tagline": "Teste",
@@ -200,7 +204,8 @@
         "description": "teste"
       },
       "logo": {
-        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/575df761-8845-466e-a066-448f4b3eb5b3"
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/575df761-8845-466e-a066-448f4b3eb5b3",
+        "alt": "Logo Ana Clara Galli"
       },
       "socialPersonalizado": [
         {

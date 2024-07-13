@@ -31,7 +31,7 @@
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p>Relatos de um</p><p>Vampiro na Guerra</p>",
+      "title": "<p>Relatos de um Vampiro na Guerra</p>",
       "cta": [
         {
           "id": "ctaFreeBook",

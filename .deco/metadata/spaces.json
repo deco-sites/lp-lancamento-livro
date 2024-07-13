@@ -1149,8 +1149,8 @@
           }
         }
       },
-      "tags": [],
-      "category": "Management"
+      "category": "Management",
+      "tags": []
     },
     {
       "id": "settings",
@@ -1196,10 +1196,10 @@
             "content": [
               {
                 "type": "stack",
+                "width": 100,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
-                "width": 100,
                 "activeItemIndex": 0,
                 "content": [
                   {
@@ -1282,13 +1282,13 @@
           }
         }
       },
+      "category": "Content",
       "tags": [
         {
           "label": "BETA",
           "color": "positive"
         }
-      ],
-      "category": "Content"
+      ]
     },
     {
       "id": "Publish",
@@ -1463,7 +1463,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 15.34303168195752,
+                "width": 32.62642740619902,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1485,7 +1485,7 @@
               },
               {
                 "type": "stack",
-                "width": 64.32900506746768,
+                "width": 67.37357259380097,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1500,27 +1500,6 @@
                       "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::visibility::Preview::%7B%7D"
                     },
                     "width": 70,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 20.327963250574797,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Terminal::terminal::Terminal::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Terminal::terminal::Terminal::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Terminal::terminal::Terminal::%7B%7D"
-                    },
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -1556,17 +1535,6 @@
           "viewId": "Preview",
           "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::visibility::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Terminal::terminal::Terminal::%7B%7D": {
-          "name": "Terminal",
-          "icon": "terminal",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Terminal",
-          "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Terminal::terminal::Terminal::%7B%7D",
           "state": {
             "__signal": null
           }

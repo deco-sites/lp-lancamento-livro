@@ -18,6 +18,7 @@ export interface Subscribe {
 export interface Social {
   network: "Facebook" | "Instagram" | "Linkedin" | "X - Twitter" | "Youtube";
   href: string;
+  ariaLabel?: string;
 }
 
 export interface SocialPesonalizado {
@@ -27,6 +28,7 @@ export interface SocialPesonalizado {
   };
   network: string;
   href: string;
+  ariaLabel: string;
 }
 
 export interface Props {
@@ -40,6 +42,7 @@ export interface Props {
     label?: string;
     src?: ImageWidget;
     href?: string;
+    alt?: string;
   };
   copyright?: string;
   bottomLinks?: Items[];
@@ -69,6 +72,7 @@ export default function Footer({
     src:
       "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/cc202be0-af57-4b32-b9c9-d1d7dc97bf85",
     href: "https://deco.cx",
+    alt:"Logo Deco.cx",
   },
   copyright = "© 2024 deco.cx. All rights reserved.",
   bottomLinks = [
@@ -77,11 +81,11 @@ export default function Footer({
     { label: "Cookies Settings", href: "/" },
   ],
   social = [
-    { network: "Facebook", href: "" },
-    { network: "Instagram", href: "" },
-    { network: "X - Twitter", href: "" },
-    { network: "Linkedin", href: "" },
-    { network: "Youtube", href: "" },
+    { network: "Facebook", href: "", ariaLabel: "Icone de link para o Facebook"  },
+    { network: "Instagram", href: "", ariaLabel: "Icone de link para o Instagram" },
+    { network: "X - Twitter", href: "", ariaLabel: "Icone de link para o X - Twitter"  },
+    { network: "Linkedin", href: "", ariaLabel: "Icone de link para o InsLinkedintagram"  },
+    { network: "Youtube", href: "", ariaLabel: "Icone de link para o Youtube"  },
   ],
   socialPersonalizado = [], // Adicionando um valor padrão
 }: Props) {
@@ -99,9 +103,9 @@ export default function Footer({
           </div>
 
           <div class="lg:w-[40%]">
-            <h4 class="font-semibold text-xl text-white mb-4">
+            <p class="font-semibold text-xl text-white mb-4">
               {subscribe?.title}
-            </h4>
+            </p>
             <form class="flex flex-col gap-4">
               <div class="flex gap-4">
                 <input
@@ -134,7 +138,7 @@ export default function Footer({
                 src={madeWith?.src || ""}
                 width={100}
                 height={28}
-                alt={madeWith?.label}
+                alt={madeWith?.alt}
               />
             </a>
             <span>{copyright}</span>
@@ -148,7 +152,7 @@ export default function Footer({
           </div>
           <div class="flex gap-3">
             {social?.map((item) => (
-              <a class="block" href={item.href} target="_blank">
+              <a class="block" href={item.href} target="_blank" aria-label={item.ariaLabel}>
                 {item.network == "Facebook" && (
                   <svg
                     width="24"

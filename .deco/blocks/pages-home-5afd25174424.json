@@ -11,13 +11,16 @@
       "navigation": {
         "links": [
           {
-            "label": "Kits"
+            "label": "Kits",
+            "url": "https://www.catarse.me/rduvng"
           },
           {
-            "label": "Onde Comprar"
+            "label": "Onde Comprar",
+            "url": "https://www.catarse.me/rduvng"
           },
           {
-            "label": "Fale Comigo"
+            "label": "Fale Comigo",
+            "url": "https://www.catarse.me/rduvng"
           }
         ],
         "buttons": [
@@ -41,7 +44,7 @@
       ],
       "description": "Hermina, uma jovem obscurecida pela monotonia de sua vida, tem sua existência transformada ao se deparar com um encontro extraordinário. Em uma história que ecoa a bravura de Mulan, ela é lançada em um turbilhão de eventos que mudarão não apenas sua vida, mas o destino de sua nação.  Ambientado na Hungria, nas vésperas da Primeira Guerra, Mina se vê diante de um dilema que irá desencadear uma reação em cadeia irreversível. Enquanto tenta esconder seu verdadeiro eu e enfrenta um mito que se torna realidade, ela se vê obrigada a escolher entre abandonar quem era ou abraçar cada parte de si mesma.",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/52ae2aaf-3e3e-416f-88fa-d6691c8efcdf",
-      "imageBackground": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/dec42133-32c8-4e53-8d46-27853b10e807"
+      "imageBackground": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/3455ac99-024c-4453-ad25-9360a4926418"
     },
     {
       "__resolveType": "site/sections/BlogPosts.tsx",
@@ -91,7 +94,8 @@
           "priceMedium": "R$60 + frete",
           "priceMediumDescription": "outras regiões",
           "buttonText": "COMPRE AGORA",
-          "buttonLink": "https://www.catarse.me/rduvng"
+          "buttonLink": "https://www.catarse.me/rduvng",
+          "altText": "Imagem dos Livros Físicos"
         },
         {
           "title": "KIT KÉTSZY",
@@ -101,7 +105,8 @@
           "priceMedium": "R$70 + frete",
           "priceMediumDescription": "outras regiões",
           "buttonText": "COMPRE AGORA",
-          "buttonLink": "https://www.catarse.me/rduvng"
+          "buttonLink": "https://www.catarse.me/rduvng",
+          "altText": "Imagem do Kit Livro Físico + Marcado de Página + Adesivos"
         },
         {
           "title": "KIT KOVÁCS",
@@ -196,7 +201,8 @@
       "social": [
         {
           "network": "Instagram",
-          "href": "https://www.instagram.com/rduvng/"
+          "href": "https://www.instagram.com/rduvng/",
+          "ariaLabel": "Icone de link para o Instagram"
         }
       ],
       "subscribe": {
@@ -211,17 +217,21 @@
       "socialPersonalizado": [
         {
           "icon": {
-            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/5c90723b-88fc-4c92-ab7c-53cda3c002eb"
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/5c90723b-88fc-4c92-ab7c-53cda3c002eb",
+            "alt": "Icone da rede social Good Reads"
           },
           "href": "https://www.goodreads.com/book/show/211226924-relatos-de-um-vampiro-na-guerra",
-          "network": "Good Reads"
+          "network": "Good Reads",
+          "ariaLabel": "Veja mais detalhes sobre o livro no site Good Reads"
         },
         {
           "icon": {
-            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/de1f600f-b418-4844-99f6-fb41b023ea88"
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/de1f600f-b418-4844-99f6-fb41b023ea88",
+            "alt": "Icone rede social Skoob"
           },
           "href": "https://www.skoob.com.br/relatos-de-um-vampiro-na-guerra-122450332ed122451356.html",
-          "network": "Skoob"
+          "network": "Skoob",
+          "ariaLabel": "Veja mais detalhes sobre as avaliações do livro no Skoob clicando aqui."
         }
       ]
     }

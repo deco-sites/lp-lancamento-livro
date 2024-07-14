@@ -58,7 +58,7 @@ export default function HeroFlats({
                   {image && (
                     <Image
                       width={700}
-                      height={400} // Defina a altura da imagem para evitar mudanças no layout
+                      height={700} // Defina a altura da imagem para evitar mudanças no layout
                       class="w-full lg:w-1/2 object-fit"
                       sizes="(max-width: 640px) 100vw, 30vw"
                       src={image}
@@ -108,7 +108,7 @@ export default function HeroFlats({
                   {image && (
                     <Image
                       width={640}
-                      height={320} // Defina a altura da imagem para evitar mudanças no layout
+                      height={640} // Defina a altura da imagem para evitar mudanças no layout
                       class="w-full lg:w-1/2 object-fit"
                       sizes="(max-width: 640px) 100vw, 30vw"
                       src={image}

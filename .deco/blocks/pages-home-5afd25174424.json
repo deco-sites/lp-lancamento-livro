@@ -43,8 +43,9 @@
         }
       ],
       "description": "Hermina, uma jovem obscurecida pela monotonia de sua vida, tem sua existência transformada ao se deparar com um encontro extraordinário. Em uma história que ecoa a bravura de Mulan, ela é lançada em um turbilhão de eventos que mudarão não apenas sua vida, mas o destino de sua nação.  Ambientado na Hungria, nas vésperas da Primeira Guerra, Mina se vê diante de um dilema que irá desencadear uma reação em cadeia irreversível. Enquanto tenta esconder seu verdadeiro eu e enfrenta um mito que se torna realidade, ela se vê obrigada a escolher entre abandonar quem era ou abraçar cada parte de si mesma.",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/52ae2aaf-3e3e-416f-88fa-d6691c8efcdf",
-      "imageBackground": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/3455ac99-024c-4453-ad25-9360a4926418"
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/2cd9ed34-845b-4dd3-8b1c-290928986d02",
+      "imageBackground": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/3455ac99-024c-4453-ad25-9360a4926418",
+      "imageBackgroundMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11754/71cd17f8-07c8-4b50-a1aa-9862b5771eae"
     },
     {
       "__resolveType": "site/sections/BlogPosts.tsx",
